@@ -120,6 +120,7 @@ nav ul :nth-child(2) {
 /*Images NAV*/
 
 #facebook-logo{
+    margin-top: 3px;
     width: 40px;
     height: auto;
 }
@@ -151,3 +152,34 @@ nav ul :nth-child(2) {
     width: 90%;
     height: auto;
 }
+
+/* Main */
+
+.main-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-left{
+    width: 25%;
+}
+.main-left ul{
+    margin: 0;
+    padding: 0;
+}
+
+.main-center{
+    width: 40%;
+}
+
+.main-right{
+    width: 25%;
+}
+.main-right ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* 25 Left + 5 space        40 main       5space + 25 right    = 30 + 40 + 30 = 100% */
+
