@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link data-default-icon="./assets/facebook_default.ico" rel="shortcut icon" href="./assets/facebook_default.ico"/>
+    <link data-default-icon="./assets/nav/facebook_default.ico" rel="shortcut icon" href="./assets/nav/facebook_default.ico"/>
     <title>Facebook</title>
     <link rel="stylesheet" href="facebook.css"></link>
 </head>
@@ -12,33 +12,65 @@
     <header>
         <nav>
             <ul class="search-nav">
-                <li><a href=""><img src="assets/image_preview.png" id="facebook-logo"></a></li>
+                <li><a href=""><img src="assets/nav/image_preview.png" id="facebook-logo"></a></li>
                 <li id="search-field">
                     <form method="GET" action="" id="search-form">
-                        <img src="assets/search-icon.png" id="search-icon">
+                        <img src="assets/nav/search-icon.png" id="search-icon">
                         <input type="search" name="search" id="search-field-text" placeholder="Pesquisar no Facebook">
                     </form>
                 </li>
             </ul>
             <ul class="menu-nav">
-                <li class="nav-options-menu"><a href=""><img src="assets/home-icon-actived.png" class="nav-icons-menu"></a></li>
-                <li class="nav-options-menu background-nav-options-menu"><a href=""><img src="assets/friends-icon.png" class="nav-icons-menu"></a></li>
-                <li class="nav-options-menu background-nav-options-menu"><a href=""><img src="assets/watch-icon.png" class="nav-icons-menu"></a></li>
-                <li class="nav-options-menu background-nav-options-menu"><a href=""><img src="assets/marketplace-icon.png" class="nav-icons-menu"></a></li>
-                <li class="nav-options-menu background-nav-options-menu"><a href=""><img src="assets/groups-icon.png" class="nav-icons-menu"></a></li>
+                <li class="nav-options-menu"><a href=""><img src="assets/nav/home-icon-actived.png" class="nav-icons-menu"></a></li>
+                <li class="nav-options-menu background-nav-options-menu"><a href=""><img src="assets/nav/friends-icon.png" class="nav-icons-menu"></a></li>
+                <li class="nav-options-menu background-nav-options-menu"><a href=""><img src="assets/nav/watch-icon.png" class="nav-icons-menu"></a></li>
+                <li class="nav-options-menu background-nav-options-menu"><a href=""><img src="assets/nav/marketplace-icon.png" class="nav-icons-menu"></a></li>
+                <li class="nav-options-menu background-nav-options-menu"><a href=""><img src="assets/nav/groups-icon.png" class="nav-icons-menu"></a></li>
             </ul>
             <ul class="profile-menu-nav">
-                <li><img src="assets/Julio.jpg" id="profile-picture"></li>
-                <li id="profile-name">Julio</li>
-                <li class="menu-rigth-nav"><button type="s" class="open-menu" id="menu"></button></li>
-                <li class="menu-rigth-nav"><button class="open-menu" id="messenger"></button></li>
-                <li class="menu-rigth-nav"><button class="open-menu" id="notification"></button></li>
-                <li class="menu-rigth-nav"><button class="open-menu" id="dropMenu"></button></li>
+                <li class="menu-rigth-nav-profile"><img src="assets/nav/Julio.jpg" id="profile-picture"></li>
+                <li class="menu-rigth-nav-profile" id="profile-name">Julio</li>
+                <li class="menu-rigth-nav"><button class="open-menu" id="menu"><img src="assets/nav/menu-icon.png" class="nav-icons-second-menu"></button></li>
+                <li class="menu-rigth-nav"><button class="open-menu" id="messenger"><img src="assets/nav/messenger-icon.png" class="nav-icons-second-menu-adapted"></button></li>
+                <li class="menu-rigth-nav"><button class="open-menu" id="notification"><img src="assets/nav/notification-icon.png" class="nav-icons-second-menu"></button></li>
+                <li class="menu-rigth-nav"><button class="open-menu" id="dropMenu"><img src="assets/nav/open-menu-icon.png" class="nav-icons-second-menu"></button></li>
             </ul>
         </nav>
     </header>
     <main>
-
+        <div class="main-container">
+            <div class="main-left">
+                <ul>
+                    <li>Foto Perfil + nome</li>
+                    <li>Amigos</li>
+                    <li>Grupos</li>
+                    <li>MarktPlace</li>
+                    <li>Watch</li>
+                    <li>Lembranças</li>
+                    <li>Salvos</li>
+                    <li>Ver Mais</li>
+                </ul>
+                <ul>
+                    <li>Seus Atalho + mais botao editar após hover</li>
+                    <li>Imagem mais jogo</li>
+                    <li>Imagem mais jogo</li>
+                    <li>Imagem mais jogo</li>
+                    <li>Imagem mais jogo</li>
+                    <li>colado rodapé - privacidades</li>
+                </ul>
+            </div>
+            <div class="main-center">
+                <div class="story">Story</div>
+                <div class="my">Minhas postagens</div>
+                <div class="live">criar vídeo ao vivo</div>
+                <div class="posts">
+                    <div>Postagem 1</div>
+                </div>
+            </div>
+            <div class="main-right">
+                
+            </div>
+        </div>
     </main>
     <footer>
 

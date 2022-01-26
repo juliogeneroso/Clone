@@ -10,10 +10,10 @@ nav{
     display: flex;
     justify-content: space-between;
     background-color: white;
-    height: 60px;
+    height: 55px;
 }
 
-ul{
+nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,27 +25,28 @@ ul, li{
     list-style-type:none;
 }
 
- ul :nth-child(2) {
+nav ul :nth-child(2) {
     justify-content:space-between;
 }
 
 /*Nav Search Fied */
 .search-nav{
-    margin-left: 12px;
+    margin-left: 16px;
 }
 
 #search-field{
     margin-left: 8px;
-    width: 250px;
+    width: 240px;
     height: 40px;
     background-color: #F2F3F5;
-    border-radius: 25px;
+    border-radius: 22px;
     text-align: left;
+    display: flex;
+    align-items: center;
 }
 
 #search-form{
     margin-left: 15px;
-    margin-top: 10px;
 }
 
 #search-field-text{
@@ -53,8 +54,9 @@ ul, li{
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
-    font-size: 16px;
+    font-size: 14px;
     width: 80%;
+    padding: 0;
 }
 
 /* Nav second Menu */
@@ -84,21 +86,38 @@ ul, li{
 
 /*Profile Menu Nav */
 
+.profile-menu-nav{
+    margin-right: 15px;
+}
+
 #profile-name{
     font-weight: 600;
     font-size: 16px;
+    margin-left: 4px;
 }
 
 .open-menu{
-    width: 40px;
+    width: 38px;
     height: 40px;
     background-color: #F2F3F5;
     border: none;
     border-radius: 100%;
-    cursor: pointer;    
+    cursor: pointer;
+    margin-right: 10px;  
 }
 
-/*Images*/
+.menu-rigth-nav-profile:nth-child(2){
+    display: flex;
+    align-items: center;
+    margin-right: 18px;
+}
+
+.menu-rigth-nav{
+    display: flex;
+    align-items: center;
+}
+
+/*Images NAV*/
 
 #facebook-logo{
     width: 40px;
@@ -111,8 +130,8 @@ ul, li{
 }
 
 .nav-icons-menu{
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
     padding-top: 18px;
 }
 
@@ -121,4 +140,14 @@ ul, li{
     border: 1px solid #CCD0D5;
     width: 30px;
     height: auto;   
+}
+
+.nav-icons-second-menu{
+    width: 70%;
+    height: auto;
+}
+
+.nav-icons-second-menu-adapted{
+    width: 90%;
+    height: auto;
 }
