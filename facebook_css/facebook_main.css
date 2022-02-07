@@ -120,7 +120,7 @@
 }
 
 .card-story{
-    width: 115px;
+    width: 130px;
     height: 180px;
     display: flex;
     justify-content: space-around;
@@ -128,6 +128,7 @@
 
 .card-story:not(:first-child){
     align-items: flex-end;
+    margin-left: 3px;
 }
 
 .card-story:first-child{
@@ -140,6 +141,8 @@
     border-right: 1px solid #CCD0D5;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .title-story{
@@ -155,6 +158,94 @@
 .my-story{
     padding-bottom: 8px;
     font-size: 12px;
+}
+
+.my{
+    background-color: white;
+    width: 98%;
+    height: 130px;
+    border-radius: 8px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 0,8px solid #CCD0D5;
+}
+
+.div-post{
+    margin-left: 8px;
+    width: 95%;
+    height: 40px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.post-form{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.post-field-text{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    font-size: 14px;
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    padding-left: 12px;
+    background-color: #F2F3F5;
+    border-radius: 18px;
+    font-size: 16px;
+    color: #65676B;
+}
+
+.more-input-options{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.more-input-options-border-top{
+    margin-top: 12px;
+    border-top: 2px solid #F2F3F5;
+    width: 95%;
+}
+
+.more-input-options-ul{
+    margin-top: 30px;
+    padding: 0;
+    margin: 0;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.more-input-options-li{
+    width: 33,33%;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #65676B;
+}
+
+.more-input-options-li:hover{
+    width: 33,33%;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #65676B;
+    background-color: #F2F3F5;
 }
 /*Main right*/
 
