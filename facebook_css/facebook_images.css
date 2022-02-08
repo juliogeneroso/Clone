@@ -5,54 +5,44 @@
     width: 40px;
     height: auto;
 }
-
 #search-icon{
     width: 6%;
     height: auto;
 }
-
 .nav-icons-menu{
     width: 22px;
     height: 22px;
     padding-top: 18px;
 }
-
 #profile-picture{
     border-radius: 50px;
     border: 1px solid #CCD0D5;
     width: 30px;
     height: auto;   
 }
-
 .profile-picture-main{
     border-radius: 50px;
     border: 1px solid #CCD0D5;
     width: 38px;
     height: auto;   
 }
-
 .nav-icons-second-menu{
     width: 70%;
     height: auto;
 }
-
 .nav-icons-second-menu-adapted{
     width: 90%;
     height: auto;
 }
-
-
 .icons-left-main{
     padding-left: 6px;
     width: 28px;
     height: auto;
 }
-
 .arrow-left-main{
     width: 15px;
     height: auto;
 }
-
 .img-story{
     overflow: hidden;
 	-moz-transition: all 0.3s;
@@ -63,7 +53,6 @@
     border-radius:10px;
     border: 1px solid #CCD0D5;
 }
-
 .img-MY-story{
     overflow: hidden;
 	-moz-transition: all 0.3s;
@@ -75,7 +64,6 @@
     border-top-right-radius:10px;
     border: 1px solid #CCD0D5;
 }
-
 .img-story:hover{
     -moz-transform: scale(1.03);
 	-webkit-transform: scale(1.03);
@@ -83,29 +71,38 @@
     cursor:pointer;
    
 }
-
 .img-MY-story:hover{
     -moz-transform: scale(1.01);
 	-webkit-transform: scale(1.01);
 	transform: scale(1.01);
     cursor:pointer;
 }
-
 .post-icon{
     width: 20px;
     height: 20px;
     margin-right: 6px;
 }
-
 .profile-picture-main-post{
     border-radius: 50px;
     border: 1px solid #CCD0D5;
     width: 40px;
     height: auto;   
 }
-
 .camera-live-icon{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     margin-left: 2px;
+}
+.menu-icon-posts{
+    width: 12px;
+    height: 12px;
+}
+.world-icon{
+    width: 12px;
+    height: 12px;
+    margin-left: 2px;
+}
+.image-post{
+    width: 100%;
+    height: 100%;
 }

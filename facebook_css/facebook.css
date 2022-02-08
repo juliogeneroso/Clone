@@ -5,21 +5,18 @@ body{
     font-family: Helvetica, Arial, sans-serif;
     background-color: #F2F3F5;
 }
-
 nav{
     display: flex;
     justify-content: space-between;
     background-color: white;
     height: 55px;
 }
-
 nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-inline-start: 0px;
 }
-
 ul, li{
     list-style:none;
     list-style-type:none;

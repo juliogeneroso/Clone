@@ -7,7 +7,6 @@
     justify-content: space-between;
 }
 
-
 /* Main left */
 
 .main-left{
@@ -15,37 +14,32 @@
     padding-left: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .main-left ul{
     margin: 0;
     padding: 0;
     width: 70%;
 }
-
 .first-menu-left-main{
     border-bottom: 1px solid #CCD0D5;
     width: 70%;
 }
-
 .first-menu-left-main li{
     width: 100%;
 }
-
 .first-menu-left-main li:hover{
     width: 100%;
     border-radius: 10px;
     background-color: #CCD0D5;
     cursor: pointer;
 }
-
 .second-menu-left-main li:not(:first-child):hover{
     width: 100%;
     border-radius: 10px;
     background-color: #CCD0D5;
     cursor: pointer;
 }
-
 .span-arrow-left-main{
     display: flex;
     align-items: center;
@@ -58,29 +52,24 @@
     cursor: pointer;
     margin-left: 6px;
 }
-
 .menu-left-main-profile{
     display: flex;
     align-items: center;
     margin-top: 5px;
     margin-left: 0px;
 }
-
 .menu-left-main-profile:not(:first-child){
     margin-left: 0px;
 }
-
 .profile-name-left-main{
     font-weight: 600;
     font-size: 16px;
     margin-left: 8px;
     font-size: 15px;
 }
-
 .space-icon-main-left{
     padding-left: 8px;
 }
-
 .title-games{
     color: #828282;
     font-size: 18px;
@@ -89,7 +78,6 @@
     display: flex;
     justify-content: space-between;
 }
-
 .terms{
     height: 210px;
     display: flex;
@@ -100,16 +88,16 @@
     color:#828282;
 
 }
+
+
 /* Main Center */
 
 .main-center{
     width: 40%;
 }
-
 .story{
 
 }
-
 .story-list{
     padding: 0;
     margin: 0;
@@ -118,19 +106,16 @@
     flex-direction: row;
     width: 98%;
 }
-
 .card-story{
     width: 130px;
     height: 180px;
     display: flex;
     justify-content: space-around;
 }
-
 .card-story:not(:first-child){
     align-items: flex-end;
     margin-left: 3px;
 }
-
 .card-story:first-child{
     display: flex;
     flex-direction: column;
@@ -144,7 +129,6 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
 .title-story{
     position: absolute;
     width: 2.5%;
@@ -154,12 +138,10 @@
     color: white;
     font-size: 12px;
 }
-
 .my-story{
     padding-bottom: 8px;
     font-size: 12px;
 }
-
 .my{
     background-color: white;
     width: 98%;
@@ -172,7 +154,6 @@
     align-items: center;
     box-shadow: 1px solid #828282;
 }
-
 .div-post{
     margin-top: 12px;
     margin-left: 8px;
@@ -183,14 +164,12 @@
     align-items: center;
     justify-content: space-around;
 }
-
 .post-form{
     width: 90%;
     display: flex;
     align-items: center;
     justify-content: start;
 }
-
 .post-field-text{
     box-shadow: 0 0 0 0;
     border: 0 none;
@@ -200,12 +179,12 @@
     height: 40px;
     padding: 0;
     padding-left: 12px;
+    padding-right: 10px;
     background-color: #F2F3F5;
     border-radius: 18px;
     font-size: 16px;
     color: #65676B;
 }
-
 .more-input-options{
     margin-top: 15px;
     width: 100%;
@@ -213,13 +192,11 @@
     display: flex;
     justify-content: center;
 }
-
 .more-input-options-border-top{
     margin-top: 12px;
     border-top: 2px solid #F2F3F5;
     width: 95%;
 }
-
 .more-input-options-ul{
     height: 100%;
     padding: 0;
@@ -229,7 +206,6 @@
     justify-content: space-around;
     flex-direction: row;
 }
-
 .more-input-options-li{
     width: 100%;
     height: 80%;
@@ -240,7 +216,6 @@
     font-size: 16px;
     color: #65676B;
 }
-
 .more-input-options-li{
     width: 100%;
     height: 80%;
@@ -252,7 +227,6 @@
     color: #65676B;
     border-radius: 8px;
 }
-
 .more-input-options-li:first-child{
     margin-left: 3px;
 }
@@ -265,7 +239,6 @@
 .more-input-options-li:nth-child(3):hover{
     margin-right: 3px;
 }
-
 .more-input-options-li:hover{
     width: 100%;
     height: 80%;
@@ -279,7 +252,6 @@
     border-radius: 8px;
     cursor: pointer;
 }
-
 .live{
     margin: 0;
     padding: 0;
@@ -290,7 +262,6 @@
     box-shadow: 1px solid #828282;
     margin-top: 20px;
 }
-
 .ul-live{
     padding: 0;
     margin: 0;
@@ -301,25 +272,22 @@
     align-items: center;
     flex-direction: row;
 }
-
 .li-live{
    margin-left: 15px;
 }
-
 .li-live:hover{
     margin-left: 15px;
     cursor: pointer;
  }
-
 .button-li-live{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 130px;
     border: 1px solid #AAC9FF;
     background-color: white;
     border-radius: 20px;
 }
-
 .button-li-live:hover{
     display: flex;
     justify-content: center;
@@ -329,13 +297,69 @@
     border-radius: 20px;
     cursor: pointer;
 }
-
 .p-button-li-live{
     color: #216FDB;
     font-size: 14px;
     font-weight: 600;
     margin-left: 8px;
 
+}
+
+/*Posts*/
+
+.users-posts{
+    width: 98%;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+.mini-nav-users-posts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mini-nav-profile-posts{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 8px;
+}
+.ul-mini-nav-posts{
+    padding: 0;
+    margin: 0;
+    margin-left: 8px;
+}
+.il-mini-nav-posts:first-child{
+    font-size: 15px;
+    color: #050505;
+    font-weight: 600;
+}
+.il-mini-nav-posts:not(:first-child){
+    font-size: 13px;
+    color: #65676B;
+}
+.mini-nav-options-posts{
+    padding-right: 8px;
+}
+.button-mini-nav-options-posts{
+    background-color: white;
+    border-style: none;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+}
+.button-mini-nav-options-posts:hover{
+    background-color: #EBEDF0;
+}
+.post{
+    margin-top: 15px;
+    width: 100%;
+    height: 400px;
 }
 /*Main right*/
 
