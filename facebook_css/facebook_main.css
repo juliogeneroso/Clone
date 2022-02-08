@@ -163,17 +163,18 @@
 .my{
     background-color: white;
     width: 98%;
-    height: 130px;
+    height: 125px;
     border-radius: 8px;
     margin-top: 30px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border: 0,8px solid #CCD0D5;
+    box-shadow: 1px solid #828282;
 }
 
 .div-post{
+    margin-top: 12px;
     margin-left: 8px;
     width: 95%;
     height: 40px;
@@ -208,6 +209,7 @@
 .more-input-options{
     margin-top: 15px;
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
 }
@@ -219,33 +221,121 @@
 }
 
 .more-input-options-ul{
-    margin-top: 30px;
+    height: 100%;
     padding: 0;
     margin: 0;
-    width: 95%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     flex-direction: row;
 }
 
 .more-input-options-li{
-    width: 33,33%;
+    width: 100%;
+    height: 80%;
     display: flex;
+    justify-content: center;
     align-items: center;
     font-weight: 600;
     font-size: 16px;
     color: #65676B;
 }
 
-.more-input-options-li:hover{
-    width: 33,33%;
+.more-input-options-li{
+    width: 100%;
+    height: 80%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #65676B;
+    border-radius: 8px;
+}
+
+.more-input-options-li:first-child{
+    margin-left: 3px;
+}
+.more-input-options-li:first-child:hover{
+    margin-left: 3px;
+}
+.more-input-options-li:nth-child(3){
+    margin-right: 3px;
+}
+.more-input-options-li:nth-child(3):hover{
+    margin-right: 3px;
+}
+
+.more-input-options-li:hover{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
     align-items: center;
     font-weight: 600;
     font-size: 16px;
     color: #65676B;
     background-color: #F2F3F5;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.live{
+    margin: 0;
+    padding: 0;
+    width: 98%;
+    height: 70px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 1px solid #828282;
+    margin-top: 20px;
+}
+
+.ul-live{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.li-live{
+   margin-left: 15px;
+}
+
+.li-live:hover{
+    margin-left: 15px;
+    cursor: pointer;
+ }
+
+.button-li-live{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #AAC9FF;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.button-li-live:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #AAC9FF;
+    background-color: #F2F3F5;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.p-button-li-live{
+    color: #216FDB;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 8px;
+
 }
 /*Main right*/
 
