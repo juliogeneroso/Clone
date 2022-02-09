@@ -2,11 +2,19 @@
 
 .main-container{
     width: 100%;
-    padding-top: 20px;
+    margin-top: 70px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
+.main-left{
+    position: fixed;
+    left:0;
+}
+.main-right{
+    position: fixed;
+    right: 0;
+}
 /* Main left */
 
 .main-left{
@@ -95,9 +103,9 @@
 .main-center{
     width: 40%;
 }
-.story{
+/*.story{
 
-}
+}*/
 .story-list{
     padding: 0;
     margin: 0;
@@ -318,6 +326,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-top: 8px;
 }
 .mini-nav-profile-posts{
     display: flex;
@@ -361,6 +370,44 @@
     width: 100%;
     height: 400px;
 }
+.amount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.amount-likes{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 15px;
+}
+.amount-comments-share{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.amount-likes-number{
+    color:#65676B;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.amount-likes-number:hover{
+    color:#65676B;
+    text-decoration: underline #65676B;
+    cursor: pointer;
+}
+.li-amounts-share-comments{
+    color:#65676B;
+    font-size: 15px;
+    margin-right: 15px;
+}
+.li-amounts-share-comments:hover{
+    color:#65676B;
+    text-decoration: underline #65676B;
+    cursor: pointer;
+}
+
 /*Main right*/
 
 .main-right{

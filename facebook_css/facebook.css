@@ -2,10 +2,14 @@ body{
     display: block;
     margin: 0px;
     padding: 0;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Segoe UI';
     background-color: #F2F3F5;
 }
 nav{
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     background-color: white;
