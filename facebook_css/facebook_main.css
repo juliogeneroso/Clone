@@ -364,6 +364,7 @@
 }
 .button-mini-nav-options-posts:hover{
     background-color: #EBEDF0;
+    cursor: pointer;
 }
 .post{
     margin-top: 15px;
@@ -375,6 +376,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    margin-top: 5px;
 }
 .amount-likes{
     display: flex;
