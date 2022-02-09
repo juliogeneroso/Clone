@@ -409,6 +409,28 @@
     text-decoration: underline #65676B;
     cursor: pointer;
 }
+.div-like-comments-share{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ul-like-comments-share{
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.li-like-comments-share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    color: #65676B;
+    font-weight: 600;
+}
 
 /*Main right*/
 
