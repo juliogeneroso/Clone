@@ -5,6 +5,9 @@ body{
     font-family: 'Segoe UI';
     background-color: #F2F3F5;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
 nav{
     position: fixed;
     top:0;

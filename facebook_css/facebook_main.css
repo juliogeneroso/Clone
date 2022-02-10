@@ -422,6 +422,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    margin-top: 4px;
 }
 .li-like-comments-share{
     display: flex;
@@ -430,8 +431,51 @@
     width: 33%;
     color: #65676B;
     font-weight: 600;
+    height: 35px;
 }
+.li-like-comments-share:hover{
+    background-color: #F2F3F5;
+    border-radius: 8px;
+}
+.letter-like-comments-share{
+    margin-left: 4px;
+}
+.div-line-top-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    width: 100%;
+}
+.div-child-line-top-bottom{
+    width: 97%;
+    border-bottom: 1px solid #CCD0D5;
+}
+.comment{
+    margin-top: 8px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.div-comment-user{
+    margin-left: 10px;
+}
+.ul-comments{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+.li-comments{
 
+}
+.form-comments{
+    width: 100%;
+}
+.input-comments{
+
+}
 /*Main right*/
 
 .main-right{
